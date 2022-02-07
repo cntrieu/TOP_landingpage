@@ -1,0 +1,163 @@
+
+html {
+    font-family: Roboto, sans-serif;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 10px 150px 50px 150px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.container {
+    display: flex;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: extra bold;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.hero-sec, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.hero-sec {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sign-up {
+    background: #3882F6;
+    color: #F9FAF8;
+    justify-content: flex-start;
+    align-self: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.image {
+    background: rgb(180, 180, 180);
+    padding: 20px 150px 0px 150px;
+    margin: 20px;
+
+}
+
+.bodycontainer {
+    padding: 20px 150px 20px 150px;
+}
+
+.random {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box1, .box2, .box3, .box4 {
+    
+    border: 1px solid;
+    height: 115px;
+    width: 100px;
+    border-radius: 25px;
+    
+    
+}
+
+.bodycontainer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodycontainer2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    margin: 0 0 100px 0;
+    text-align: center;
+    
+}
+
+.bodycontainer1, .bodycontainer2 {
+    padding: 0 150px 0px 150px;
+}
+
+
+.quote {
+    font-style: italic;
+    background-color: rgb(187, 187, 187);
+    padding: 150px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.action {
+    padding: 50px 150px 50px 150px;
+    background-color: #3882F6;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+
+}
+
+.action2 {
+    display: flex;
+    flex-flow: column wrap;
+ 
+}
+
+.action-ancestor {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+
+.action-child {
+    margin: 0 0 30px 0;
+}
+
+.signupbutton {
+    align-self: center;
+    justify-content: flex-end;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background: #1F2937;
+    padding: 20px;
+    font-size: 10px;
+}
